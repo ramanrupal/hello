@@ -3,6 +3,7 @@ using namespace std;
 #include "treeheader.h"
 int main()
 {
+	//
 	struct node *root=NULL;
 	root=new_node('A');
 	root->left=new_node('B');
